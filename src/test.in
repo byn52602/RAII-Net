@@ -1,0 +1,26 @@
+ability a 6 0
+ability 1 a
+move a down
+ability 1 A
+move A up
+ability 3 E
+move d down
+abilities
+board
+move G up
+move e down
+ability 2 5 6
+move A right
+ability 2 6 7
+move f down
+ability 3 g
+move G up
+ability 4 G
+move e down
+ability 4 c
+move H up
+ability 5 G
+move f down
+ability 5 c
+move G up
+quit
