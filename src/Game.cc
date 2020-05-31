@@ -44,8 +44,6 @@ int whoseLink(char id){
     return 0;
 }
 
-//TODO:check if ability is available FOR ALL ABILITIES
-//TODO:check if meets the condition of using abilities
 void Game::applyAbility(int ab){
     if(players[currPlayer-1]->abilities[ab-1]->getIsUsed()) throw runtime_error("CHECK YOUR ABILITY STATUS AND TRY AGAIN, CANNOT USE ABILITY.");
     string ability = players[currPlayer-1]->abilities[ab-1]->getAbilityName();
